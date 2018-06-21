@@ -13,7 +13,9 @@ def sandwich_request(ingredients, order)
     ["swiss", "munster", "cheddar"],
     ["mayo", "mustard", "tabasco"]
 ]
-
+ingredients[0][1]
+ingredients[1]
+ingredients[1][0][0]
 end
 
 # example city_info hash
