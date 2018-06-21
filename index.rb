@@ -17,7 +17,7 @@ puts ingredients[0][1]
 puts ingredients[1]
 puts ingredients[1][0][0]
 end
-
+sandwich_request
 # example city_info hash
 cities = {
   :new_york => { 
