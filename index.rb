@@ -35,8 +35,11 @@ if order = "ham" ||"salami" || "turkey"
   puts "true"
 if order != "swiss" || "munster" || "cheddar"
   puts "false"
+if order = "swiss" || "munster" || "cheddar"
+  puts "true"  
 if order != "mayo" || "mustard" || "tabasco"
   puts "false"
+  
 order = ["rye", "tofu", "cheddar"]
 end
 sandwich_request
