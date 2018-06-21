@@ -12,6 +12,11 @@ puts ingredients[1][0][0]
 # + `["mayo", "mustard", "tabasco"]`
 # + `"cheddar"`
 # + `"sourdough"`
+
+puts ingredients[3]
+puts ingredients[2][2]
+puts ingredients[0][1]
+
 def sandwich_request(ingredients, order) 
   ingredients = [
     ["rye", "sourdough", "baguette"],
