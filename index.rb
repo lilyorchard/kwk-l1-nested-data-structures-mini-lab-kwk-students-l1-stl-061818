@@ -24,6 +24,16 @@ def sandwich_request(ingredients, order)
     ["swiss", "munster", "cheddar"],
     ["mayo", "mustard", "tabasco"]
 ]
+sandwich_request(ingredients)
+if order != "rye" || "sourdough" ||"baguette"
+  puts "false"
+if order != "ham" ||"salami" || "turkey"
+  puts "false"
+if order != "swiss" || "munster" || "cheddar"
+  puts "false"
+if order != "mayo" || "mustard" || "tabasco"
+  puts "false"
+order != ["rye", "tofu", "cheddar"]
 end
 
 
