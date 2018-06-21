@@ -27,9 +27,9 @@ def sandwich_request(ingredients, order)
 sandwich_request(ingredients)
 if order != "rye" || "sourdough" ||"baguette"
   puts "false"
-if order = "rye" || "sourdough" ||"baguette"
+elsif order = "rye" || "sourdough" ||"baguette"
   puts "true"
-if order != "ham" ||"salami" || "turkey"
+elsif order != "ham" ||"salami" || "turkey"
   puts "false"
 if order = "ham" ||"salami" || "turkey"
   puts "true"
@@ -39,7 +39,8 @@ if order = "swiss" || "munster" || "cheddar"
   puts "true"  
 if order != "mayo" || "mustard" || "tabasco"
   puts "false"
-  
+if order = "mayo" || "mustard" || "tabasco"
+  puts "true"  
 order = ["rye", "tofu", "cheddar"]
 end
 sandwich_request
