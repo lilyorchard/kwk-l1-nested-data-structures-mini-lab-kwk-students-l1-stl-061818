@@ -13,7 +13,7 @@ def sandwich_request(ingredients, order)
     ["swiss", "munster", "cheddar"],
     ["mayo", "mustard", "tabasco"]
 ]
-ingredients[0][1]
+puts ingredients[0][1]
 ingredients[1]
 ingredients[1][0][0]
 end
