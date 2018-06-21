@@ -33,7 +33,7 @@ if order != "swiss" || "munster" || "cheddar"
   puts "false"
 if order != "mayo" || "mustard" || "tabasco"
   puts "false"
-order != ["rye", "tofu", "cheddar"]
+order = ["rye", "tofu", "cheddar"]
 end
 
 
