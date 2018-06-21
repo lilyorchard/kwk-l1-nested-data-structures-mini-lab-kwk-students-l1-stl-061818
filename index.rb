@@ -17,7 +17,6 @@ def sandwich_request(ingredients, order)
     ["mayo", "mustard", "tabasco"]
 ]
 end
-sandwich_request
 
 
 # example city_info hash
