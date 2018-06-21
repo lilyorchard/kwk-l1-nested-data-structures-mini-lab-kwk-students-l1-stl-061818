@@ -27,14 +27,18 @@ def sandwich_request(ingredients, order)
 sandwich_request(ingredients)
 if order != "rye" || "sourdough" ||"baguette"
   puts "false"
+if order = "rye" || "sourdough" ||"baguette"
+  puts "true"
 if order != "ham" ||"salami" || "turkey"
   puts "false"
+
 if order != "swiss" || "munster" || "cheddar"
   puts "false"
 if order != "mayo" || "mustard" || "tabasco"
   puts "false"
 order = ["rye", "tofu", "cheddar"]
 end
+sandwich_request
 
 
 # example city_info hash
