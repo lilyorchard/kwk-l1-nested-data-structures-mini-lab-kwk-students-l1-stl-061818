@@ -14,8 +14,8 @@ def sandwich_request(ingredients, order)
     ["mayo", "mustard", "tabasco"]
 ]
 puts ingredients[0][1]
-ingredients[1]
-ingredients[1][0][0]
+puts ingredients[1]
+puts ingredients[1][0][0]
 end
 
 # example city_info hash
